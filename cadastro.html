@@ -8,13 +8,20 @@
     <link rel="stylesheet" href="script.js">
 </head>
 <body>
-    <form action="/action_page.php">
-        <h1>Cadastrar</h1>
+        <form action="/action_page.php">
+        <h1 class="titulo">Cadastrar</h1>
         <label for="usuario">Usuário</label><br>
-        <input type="text" id="usuario" name="usu" value=""><br>
-        <label for="senha">Senha:</label><br>
-        <input type="text" id="lname" name="lname" value="Doe"><br><br>
-        <input type="submit" value="Submit">
+        <input class="usuario" type="text" id="usuario" name="usu" value=""><br>
+        <label for="senha">Senha</label><br>
+        <input type="text" id="senha" name="lname" value=""><br><br>
+        <label for="senha">Confirme sua senha</label><br>
+        <input type="text" id="csenha" name="csenha" value=""><br><br>
+        <input type="checkbox" oneclick="myfunction()"> Exibir senha
+        
+        <input class="botaoca" type="submit" value="Cadastrar" style="color:rgb(198, 225, 242)" >
+        <p>Possui uma conta</p>
+        <p  class="sis"><strong>Entrar no sistema</strong></p>
+        
       </form>
     
 </body>

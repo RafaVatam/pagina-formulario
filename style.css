@@ -3,3 +3,41 @@
     height: 400px;
     color:red;
 }
+.botaoca{
+    background-color: rgb(95, 10, 135);
+    height: 40px;
+    width: 170px;
+    
+    
+}
+.titulo{
+    color:rgb(74, 74, 165);
+
+
+}
+
+    
+
+input{
+    background-color: rgb(212, 216, 216);
+    border-style: none;
+    
+}
+.sis{
+    top: 30px;
+    color:rgb(22, 5, 90);
+    font-style: ;
+}
+body{
+    
+  width: 200px;
+  margin: 20px;
+  padding: 20px;
+  box-shadow:
+    0 0 0 2px white,
+    0.3em 0.3em 1em rgba(99, 87, 87, 0.6);
+
+}
+label{
+
+}
