@@ -6,7 +6,7 @@
 .botaoca{
     background-color: rgb(95, 10, 135);
     height: 40px;
-    width: 170px;
+    width: 200px;
     
     
 }
@@ -15,12 +15,18 @@
 
 
 }
+.oie{
 
+    padding: bottom 10%;;
+    
+}
     
 
-input{
+.coisa{
     background-color: rgb(212, 216, 216);
     border-style: none;
+    height: 20px;
+    width: 200px;
     
 }
 .sis{
@@ -38,6 +44,10 @@ body{
     0.3em 0.3em 1em rgba(99, 87, 87, 0.6);
 
 }
-label{
 
+p{
+    text-align: center;
+}
+.botao{
+bottom: 30px;
 }
